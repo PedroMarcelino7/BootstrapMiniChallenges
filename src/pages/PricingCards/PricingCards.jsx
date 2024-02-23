@@ -1,3 +1,5 @@
+import './PricingCards.css'
+
 export default function PricingCards() {
     return (
         <div className="container py-5">
