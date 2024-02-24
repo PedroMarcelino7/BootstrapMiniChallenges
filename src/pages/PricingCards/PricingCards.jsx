@@ -2,7 +2,7 @@ import './PricingCards.css'
 
 export default function PricingCards() {
     return (
-        <div className="container mt-5">
+        <div className="container mt-5" style={{ maxWidth: '800px' }}>
             <div className="row">
                 <div className="col-12 col-sm-6 mb-4">
                     <div className='rounded-4 shadow-lg p-3'>
