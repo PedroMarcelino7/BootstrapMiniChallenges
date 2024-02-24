@@ -45,17 +45,20 @@ export default function UserList() {
                     <div className="col-md-4">
                         <div className="card mb-3">
                             <div className="card-body">
-                                <div className="d-flex gap-3">
+                                <div className="d-flex gap-4">
                                     <div className="user-img">
-                                        <img className='rounded-circle img-fluid' src="https://picsum.photos/200/200" alt="" />
+                                        <img className='rounded-circle img-fluid' src="https://randomuser.me/api/portraits/men/10.jpg" alt="" />
                                     </div>
 
                                     <div className="user-info">
                                         <h4>John Doe</h4>
                                         <h6>Troy, MI</h6>
-                                        <span className="badge bg-primary">Nature</span>
-                                        <span className="badge bg-primary">Travel</span>
-                                        <span className="badge bg-primary">Sports</span>
+
+                                        <div className="d-flex flex-wrap gap-2">
+                                            <span className="badge bg-primary">Nature</span>
+                                            <span className="badge bg-primary">Travel</span>
+                                            <span className="badge bg-primary">Sports</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -67,15 +70,17 @@ export default function UserList() {
                             <div className="card-body">
                                 <div className="d-flex gap-3">
                                     <div className="user-img">
-                                        <img className='rounded-circle img-fluid' src="https://picsum.photos/200/200" alt="" />
+                                        <img className='rounded-circle img-fluid' src="https://randomuser.me/api/portraits/women/10.jpg" alt="" />
                                     </div>
 
                                     <div className="user-info">
-                                        <h4>John Doe</h4>
-                                        <h6>Troy, MI</h6>
-                                        <span className="badge bg-primary">Nature</span>
-                                        <span className="badge bg-primary">Travel</span>
-                                        <span className="badge bg-primary">Sports</span>
+                                        <h4>Lehla Nichols</h4>
+                                        <h6>Fort Worth, TX</h6>
+                                        <div className="d-flex flex-wrap gap-2">
+                                            <span className="badge bg-primary">Fashion</span>
+                                            <span className="badge bg-primary">STEM</span>
+                                            <span className="badge bg-primary">Architecture</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -87,15 +92,83 @@ export default function UserList() {
                             <div className="card-body">
                                 <div className="d-flex gap-3">
                                     <div className="user-img">
-                                        <img className='rounded-circle img-fluid' src="https://picsum.photos/200/200" alt="" />
+                                        <img className='rounded-circle img-fluid' src="https://randomuser.me/api/portraits/women/20.jpg" alt="" />
                                     </div>
 
                                     <div className="user-info">
-                                        <h4>John Doe</h4>
+                                        <h4>Annie Rice</h4>
                                         <h6>Troy, MI</h6>
-                                        <span className="badge bg-primary">Nature</span>
-                                        <span className="badge bg-primary">Travel</span>
-                                        <span className="badge bg-primary">Sports</span>
+                                        <div className="d-flex flex-wrap gap-2">
+                                            <span className="badge bg-primary">Electronics</span>
+                                            <span className="badge bg-primary">Tech</span>
+                                            <span className="badge bg-primary">Music</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-md-4">
+                        <div className="card mb-3">
+                            <div className="card-body">
+                                <div className="d-flex gap-3">
+                                    <div className="user-img">
+                                        <img className='rounded-circle img-fluid' src="https://randomuser.me/api/portraits/men/20.jpg" alt="" />
+                                    </div>
+
+                                    <div className="user-info">
+                                        <h4>Thomas Sinew</h4>
+                                        <h6>Lynn, MA</h6>
+                                        <div className="d-flex flex-wrap gap-2">
+                                            <span className="badge bg-primary">Vintage</span>
+                                            <span className="badge bg-primary">Clothing</span>
+                                            <span className="badge bg-primary">Sports</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-md-4">
+                        <div className="card mb-3">
+                            <div className="card-body">
+                                <div className="d-flex gap-3">
+                                    <div className="user-img">
+                                        <img className='rounded-circle img-fluid' src="https://randomuser.me/api/portraits/women/30.jpg" alt="" />
+                                    </div>
+
+                                    <div className="user-info">
+                                        <h4>Brianna Haylee</h4>
+                                        <h6>Boston, MA</h6>
+                                        <div className="d-flex flex-wrap gap-2">
+                                            <span className="badge bg-primary">Software</span>
+                                            <span className="badge bg-primary">Design</span>
+                                            <span className="badge bg-primary">UI/UX</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-md-4">
+                        <div className="card mb-3">
+                            <div className="card-body">
+                                <div className="d-flex gap-3">
+                                    <div className="user-img">
+                                        <img className='rounded-circle img-fluid' src="https://randomuser.me/api/portraits/men/30.jpg" alt="" />
+                                    </div>
+
+                                    <div className="user-info">
+                                        <h4>James Hall</h4>
+                                        <h6>Austin, TX</h6>
+                                        <div className="d-flex flex-wrap gap-2">
+                                            <span className="badge bg-primary">Dance</span>
+                                            <span className="badge bg-primary">Fashion</span>
+                                            <span className="badge bg-primary">Music</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

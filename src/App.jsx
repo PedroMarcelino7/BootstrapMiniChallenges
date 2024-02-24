@@ -6,9 +6,9 @@ import UserList from './pages/UserList/UserList'
 function App() {
   return (
     <>
-      {/* <PricingCards /> */}
+      <PricingCards />
 
-      {/* <Ratings /> */}
+      <Ratings />
 
       <UserList />
     </>
