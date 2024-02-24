@@ -1,8 +1,11 @@
 import './Ratings.css'
 
-export default function Ratings() {
+export default function Ratings({ name, number }) {
     return (
         <div className="container" style={{ maxWidth: '700px' }}>
+            <h1 className='text-center mt-5'>{name}</h1>
+            <h4 className='text-center'>Challenge {number}</h4>
+
             <div className="card border-0 shadow-lg rounded-4 py-5 px-3 p-md-5 mt-5 bg-light">
                 <div className="container">
                     <div className="row">

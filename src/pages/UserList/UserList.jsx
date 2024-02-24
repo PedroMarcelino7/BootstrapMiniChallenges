@@ -1,11 +1,14 @@
 import { useState } from 'react'
 import './UserList.css'
 
-export default function UserList() {
+export default function UserList({ name, number }) {
     const [theme, setTheme] = useState('dark')
 
     return (
-        <div className={`container-fluid bg-${theme} py-5`} data-bs-theme={theme}>
+        <div className={`container-fluid bg-${theme} pb-5 pt-2`} data-bs-theme={theme}>
+            <h1 className='text-center text-light mt-5'>{name}</h1>
+            <h4 className='text-center text-muted'>Challenge {number}</h4>
+
             <div className="container">
                 <div className="row">
                     <div className="col-12">

@@ -1,9 +1,12 @@
 import './PricingCards.css'
 
-export default function PricingCards() {
+export default function PricingCards({ name, number }) {
     return (
-        <div className="container mt-5" style={{ maxWidth: '800px' }}>
-            <div className="row">
+        <div className="container" style={{ maxWidth: '800px' }}>
+            <h1 className='text-center mt-5'>{name}</h1>
+            <h4 className='text-center'>Challenge {number}</h4>
+
+            <div className="row mt-5">
                 <div className="col-12 col-sm-6 mb-4">
                     <div className='rounded-4 shadow-lg p-3'>
                         <h4 className='fw-bold'>Free</h4>

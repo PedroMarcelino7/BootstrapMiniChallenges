@@ -6,11 +6,15 @@ import UserList from './pages/UserList/UserList'
 function App() {
   return (
     <>
-      <PricingCards />
+      <PricingCards name={'Pricing Cards'} number={'1'} />
 
-      <Ratings />
+      <hr />
 
-      <UserList />
+      <Ratings name={'Average Ratings'} number={'2'} />
+
+      <hr />
+
+      <UserList name={'Users List'} number={'3'} />
     </>
   )
 }
