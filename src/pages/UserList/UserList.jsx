@@ -6,7 +6,7 @@ export default function UserList({ name, number }) {
 
     return (
         <div className={`container-fluid bg-${theme} pb-5 pt-2`} data-bs-theme={theme}>
-            <h1 className='text-center text-light mt-5'>{name}</h1>
+            <h1 className='text-center text-muted mt-5'>{name}</h1>
             <h4 className='text-center text-muted'>Challenge {number}</h4>
 
             <div className="container">
