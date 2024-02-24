@@ -2,15 +2,15 @@ import './Ratings.css'
 
 export default function Ratings() {
     return (
-        <div className="container">
+        <div className="container" style={{ maxWidth: '700px' }}>
             <div className="card border-0 shadow-lg rounded-4 p-5 mt-5 bg-light">
                 <div className="container">
                     <div className="row">
-                        <div className="col-7">
+                        <div className="col-12 col-sm-7">
                             <h2 className='fw-bold'>What others think about the product</h2>
                         </div>
 
-                        <div className="col-5">
+                        <div className="col-12 col-sm-5">
                             <div className="card p-4">
                                 <div className="d-flex align-items-center justify-content-center gap-3">
                                     <i class="bi bi-star-fill fs-1 text-warning"></i>
@@ -23,9 +23,9 @@ export default function Ratings() {
                     </div>
 
                     <div className="row my-5">
-                        <div class="input-group mb-3">
-                            <span class="input-group-text"><i className="bi bi-search"></i></span>
-                            <input type="text" class="form-control" placeholder="Search Reviews" />
+                        <div class="input-group input-group-lg">
+                            <span class="input-group-text rounded-start-pill"><i className="bi bi-search"></i></span>
+                            <input type="text" class="form-control rounded-end-pill shadow-none" placeholder="Search Reviews" />
                         </div>
                     </div>
 
